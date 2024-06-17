@@ -8,11 +8,7 @@
 </head>
 <body>
     <article>
-        <h1><a href="/post">My firts Post</a></h1>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sapiente nesciunt iure, dolore delectus, laudantium qui nihil aperiam cum incidunt odio, asperiores quisquam hic! Maxime voluptatibus quibusdam sit provident optio.
-        </p>
+        <?= $post; ?>
     </article>
 
     <a href="/">Go back</a>
