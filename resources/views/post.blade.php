@@ -7,10 +7,10 @@
     <title>My Blog</title>
 </head>
 <body>
+    <?php foreach ( $posts as $post ) : ?>
     <article>
         <?= $post; ?>
     </article>
-
-    <a href="/">Go back</a>
+    <?php endforeach; ?>
 </body>
 </html>
