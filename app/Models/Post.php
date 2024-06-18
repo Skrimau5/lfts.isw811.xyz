@@ -54,7 +54,7 @@ class Post
     {
         $post = static::find($slug);
 
-        if (!$post) {
+        if (! $post) {
             throw new ModelNotFoundException();
         }
 

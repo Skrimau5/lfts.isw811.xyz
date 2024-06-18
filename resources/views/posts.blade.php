@@ -6,7 +6,6 @@
             <a href="/posts/{{ $post->slug }}">
                 {{ $post->title }}
             </a>
-
         </h1>
 
         <div>
