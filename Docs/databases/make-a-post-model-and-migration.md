@@ -138,3 +138,5 @@ Por ultimo cambiamos también el archivo `posts.blade.php`, igualmente cambiando
         </div>
     </article>
 ```
+
+Al final creamos otro Post para la siguiente session

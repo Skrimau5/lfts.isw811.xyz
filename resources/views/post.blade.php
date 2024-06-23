@@ -1,6 +1,6 @@
 <x-layout>
-    <article>
-        <h1>{{ $post->title }}</h1>
+<article>
+        <h1>{!! $post->title !!}</h1>
 
         <div>
             {!! $post->body !!}
