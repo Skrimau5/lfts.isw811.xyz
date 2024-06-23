@@ -16,7 +16,7 @@ Primero nos iremos a nuestra maquina virtual y instalamos el mysql con el siguie
 brew install mysql
 ```
 
-Despues nos conectamos a mysql con el siguiente comando:
+Luego nos conectamos a mysql con el siguiente comando:
 
 ```bash
 mysql -u laravel -h 192.168.56.11 -p
@@ -41,7 +41,7 @@ php artisan migrate;
 Volvemos a conectarnos otra vez al mysql y ejecutamos el siguiente comando para usar nuestra base de datos ya creada:
 
 ```bash
-use blog;
+use lfts;
 ```
 
 Y después, ejecutamos el siguiente comando para ver la tablas en nuestra base de datos:
