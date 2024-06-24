@@ -1,5 +1,5 @@
-<body>
-    <x-layout>
+   <body>
+   <x-layout>
     @foreach ($posts as $post)
 <article>
         <h1>
@@ -7,6 +7,10 @@
                 {!! $post->title !!}
             </a>
         </h1>
+
+        <p>
+             <a href="#">{{ $post->category->name }}</a>
+        </p>
 
         <div>
             {{ $post->excerpt }}

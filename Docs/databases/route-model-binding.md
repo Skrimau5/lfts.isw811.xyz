@@ -53,7 +53,7 @@ Route::get('posts/{post:slug}', function (Post $post) {
 });
 ```
 
-Después, nos movemos al archivo `post.blade.php` para en vez de llamar por `id`, llamar por el nuevo atributo `slug`.
+Después, nos movemos al archivo `posts.blade.php` para en vez de llamar por `id`, llamar por el nuevo atributo `slug`.
 
 ```php
 <body>
@@ -62,9 +62,8 @@ Después, nos movemos al archivo `post.blade.php` para en vez de llamar por `id`
 <article>
         <h1>
             <a href="/posts/{{ $post->slug }}">
-                {{!! $post->title !!}}
+                {!! $post->title !!}
             </a>
-
         </h1>
 
         <div>
