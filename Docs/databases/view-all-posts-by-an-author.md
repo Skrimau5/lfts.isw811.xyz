@@ -109,4 +109,4 @@ Route::get('authors/{author:username}', function (User $author) {
 ```
 
 Verificamos la pagina web, se tendría que observar de la siguiente manera:
-![Username agregado a la ruta](./images/usernamepagina.png)
+![Username agregado a la ruta](./images/29.3%20author.png)
