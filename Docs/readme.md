@@ -42,3 +42,34 @@ En este indice podremos ver los capitulos del proyecto: **Laravel 8 From Sractch
 - [34. A Small JavaScript Dropdown Detour](./integrate_design/a-small-javascript-dropdowm-detour.md)
 - [35. How to Extract a Dropdown Blade Component](./integrate_design/how-to-extract-a-dropdown-blade-component.md)
 - [36. Quick Tweaks and Clean-Up](./integrate_design/quick-tweaks-and-clean-up.md)
+
+## 06. Search
+- [37. Search (The Messy Way)](./search/search-the-messy-way.md)
+- [38. Search (The Cleaner Way)](./search/search-the-cleaner-way.md)
+
+## 07. Filtering
+- [39. Adavance Eloquent Query Constraints](./filtering/advanced-eloquent-query-constraints.md)
+- [40. Extract a Category Dropdown Blade Component](./filtering/extract-a-category-dropdown-blade-component.md)
+- [41. Author Filtering](./filtering/author-filtering.md)
+- [42. Merge Category and Search Queries](./filtering/merge-category-and-search-queries.md)
+- [43. Fix a Confusing Eloquent Query Bug](./filtering/fix-a-confusing-eloquent-query-bug.md)
+
+## 08. Pagination
+- [44. Laughably Simple Pagination](./pagination/laughably-simple-pagination.md)
+
+## 09. Forms and Authentication
+- [45. Build a Register User Page](./forms_and_authentication/build-a-register-user-page.md)
+- [46. Automatic Password Hashing With Mutators](./forms_and_authentication/automatic-pssword-hashing-with-mutators.md)
+- [47. Failed Validation and Old Input Data](./forms_and_authentication/failed-vailidation-and-old-input-data.md)
+- [48. Show a Success Flash Message](./forms_and_authentication/show-a-success-flash-message.md)
+- [49. Login and Logout](./forms_and_authentication/login-and-logout.md)
+- [50. Build the Log in Page](./forms_and_authentication/build-the-log-in-page..md)
+- [51. Laravel Breeze Quick Peek](./forms_and_authentication/laravel-breeze-quick-peek.md)
+
+## 10. Comments
+
+## 11. Newsletters and APIs
+
+## 12. Admin Section
+
+## 13. Conclusion
