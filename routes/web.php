@@ -21,7 +21,7 @@ use Spatie\YamlFrontMatter\YamlFrontMatter;
 Route::get('/', function () {
 
     return view('posts', [
-        'posts' => Post::latest()->with(['category', 'author'])->get()
+        'posts' => Post::latest()->get()
     ]);
 });
 
