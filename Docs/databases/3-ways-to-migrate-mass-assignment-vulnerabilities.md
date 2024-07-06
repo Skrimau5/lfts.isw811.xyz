@@ -1,4 +1,4 @@
-[< Volver al Indice](/Docs/readme.md/).
+[< Volver al Indice](/Docs/readme.md/)
 
 Vamos a revisar si el sistema es vulnerable.
 
