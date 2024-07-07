@@ -21,7 +21,7 @@ class PostFactory extends Factory
             'title' => $this->faker->sentence,
             'slug' => $this->faker->slug,
             'excerpt' => '<p>' . implode('</p><p>', $this->faker->paragraphs(2)) . '</p>',
-            'body' => '<p>' . implode('</p><p>', $this->faker->paragraphs(6)) . '</p>'
+            'body' => '<p>' . implode('</p><p>', $this->faker->paragraphs(6)) . '</p>',
         ];
     }
 }

@@ -68,3 +68,13 @@ Y además, creamos un nuevo archivo llamada `category-button.blade.php` en la ca
 class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold" 
 style="font-size: 10px">{{$category->name}}</a>
 ```
+
+Luego nos vamos para `post-card.blade.php` y modificamos lo siguiente:
+
+```php
+    <div class="mt-6 flex flex-col justify-between flex-1">
+        <header>
+            <div class="space-x-2">
+            <x-category-button : category="$post->category"/>
+            </div>
+```

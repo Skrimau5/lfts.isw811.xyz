@@ -3,8 +3,6 @@
         Latest <span class="text-blue-500">Laravel From Scratch</span> News
     </h1>
 
-    
-
     <div class="space-y-2 lg:space-y-0 lg:space-x-4 mt-4">
     <!--  Category -->
     <div class="relative lg:inline-flex bg-gray-100 rounded-xl">
