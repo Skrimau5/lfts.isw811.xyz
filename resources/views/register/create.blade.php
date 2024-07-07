@@ -1,47 +1,3 @@
-[< Volver al Indice](/Docs/readme.md/)
-
-# Build a Register User Page
-Vamos a comenzar la maquina virtual para crear el archivo `RegisterController.php`.
-
-Ya en la maquina, ejecutamos el siguiente comando.
-
-```bash
-php artisan make:controller RegisterController
-```
-
-Luego abrimos el archivo `web.php` y creamos las siguiente las rutas:
-
-```php
-Route::get('register', [RegisterController::class, 'create'])->middleware('guest');
-Route::post('register', [RegisterController::class, 'store'])->middleware('guest');
-```
-
-Nos ubicamos en `RegisterController.php` y realizamos las siguientes funciones.
-
-```php
-public function create()
-    {
-        return view('register.create');
-    }
-
-    public function store()
-    {
-        $attributes = request()->validate([
-            'name' => 'required|max:255',
-            'username' => 'required|min:3|max:255',
-            'email' => 'required|email|max:255',
-            'password' => 'required|min:7|max:255',
-        ]);
-
-        User::create($attributes);
-
-        return redirect('/');
-    }
-```
-
-Segidamente creamos una carpeta llamada `register` dentro de la carpeta `views`, seguidamente dentro de la carpeta register creamos un archivo llamado `create.blade.php` y agregamos lo siguiente.
-
-```php
 <x-layout>
     <section class="px-6 py-8">
         <main class="max-w-lg mx-auto mt-10 bg-gray-100 border border-gray-200 p-6 rounded-xl">
@@ -123,20 +79,3 @@ Segidamente creamos una carpeta llamada `register` dentro de la carpeta `views`,
         </main>
     </section>
 </x-layout>
-```
-
-Y para finalizar, nos vamos al archivo model `User.php` y eliminamos el atributo `$fillable`, y agregamos el siguiente atributo:
-
-```php
-protected $guarded = [];
-```
-
-Por ultimo, procedemos a revisar el registro en la pagina.
-
-* Primer proceso registrar el usuario.
-
-![Registrar usuario](./images/47.1%20create%20user.png)
-
-* Segundo verificamos la creación del usuario en la base de datos.
-
-![Verificar usuario en la base de datos](./images/47.2%20user.png)
