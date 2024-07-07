@@ -67,9 +67,28 @@ En este indice podremos ver los capitulos del proyecto: **Laravel 8 From Sractch
 - [51. Laravel Breeze Quick Peek](./forms_and_authentication/laravel-breeze-quick-peek.md)
 
 ## 10. Comments
-
+- [52. Write the Markup for a Post Comment](./comments/write-the-markup-for-a-post-comment.md)
+- [53. Table Consistency and Foreign Key Constraints](./comments/table-consistency-and-foreign-key-constraints.md)
+- [54. Make the Comments Section Dynamic](./comments/make-the-comments-section-dynamic.md)
+- [55. Design the Comment Form](./comments/design-the-comment-form.md)
+- [56. Activate the Comment Form](./comments/activate-the-comment-form.md)
+- [57. Some Light Chapter Clean Up](./comments/some-light-chapter-clean-up.md)
+ 
 ## 11. Newsletters and APIs
+- [58. Mailchimp API Tinkering](./newsletters_and_apis/mailchimp-API-tinkering.md)
+- [59. Make the Newsletter Form Work](./newsletters_and_apis/make-the-newsletter-form-work.md)
+- [60. Extract a Newsletter Service](./newsletters_and_apis/extract-a-newsletter-service.md)
+- [61. Toy Chests and Contracts](./newsletters_and_apis/toy-chests-and-contracts.md)
 
 ## 12. Admin Section
+- [62. Limit Access to Only Admins](./admin_section/limit-access-to-only-admins.md)
+- [63. Create the Publish Post Form](./admin_section/create-the-publish-post-form.md)
+- [64. Validate and Store Post Thumbnails](./admin_section/validate-and-store-post-thumbnails.md)
+- [65. Extract Form-Specific Blade Components](./admin_section/extract-form-specific-blade-components.md)
+- [66. Extend the Admin Layout](./admin_section/extend-the-admin-layout.md)
+- [68. Create a Form to Edit and Delete Posts](./admin_section/create-a-form-to-edit-and-delete-posts.md)
+- [68. Group and Store Validation Logic](./admin_section/group-and-store-validation-logic.md)
+- [69. All About Authorization](./admin_section/all-about-authorization.md)
 
 ## 13. Conclusion
+- [70. Conclusion](./conclusion/conclusion.md)
