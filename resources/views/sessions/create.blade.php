@@ -1,17 +1,3 @@
-[< Volver al Indice](/Docs/readme.md/)
-
-# Build the Log In Page
-
-Primero, nos vamos al archivo `web.php` y agregamos las siguientes rutas.
-
-```php
-Route::get('login', [SessionsController::class, 'create'])->middleware('guest');
-Route::post('login', [SessionsController::class, 'store'])->middleware('guest');
-```
-
-Y después, creamos una nueva carpeta llamada `sessions` dentro de la carpeta `views` y creamos un nuevo archivo llamado `create.blade.php` y añadimos lo siguiente.
-
-```php
 <x-layout>
     <section class="px-6 py-8">
         <main class="max-w-lg mx-auto mt-10 bg-gray-100 border border-gray-200 p-6 rounded-xl">
@@ -70,8 +56,3 @@ Y después, creamos una nueva carpeta llamada `sessions` dentro de la carpeta `v
         </main>
     </section>
 </x-layout>
-```
-
-Revisamos la pagina.
-
-![Verificar login](./images/50.1%20user.png)
