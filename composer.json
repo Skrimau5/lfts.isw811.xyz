@@ -14,7 +14,8 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "3.4.6",
         "mailchimp/marketing": "^3.0",
-        "spatie/yaml-front-matter": "^2.0"
+        "spatie/yaml-front-matter": "^2.0",
+        "symfony/sendgrid-mailer": "^6.1"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
