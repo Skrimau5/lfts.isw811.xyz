@@ -23,5 +23,10 @@ public function index()
             'post' => $post
         ]);
     }
+
+    public function create()
+    {
+        return view('posts.create');
+    }
         
 }
