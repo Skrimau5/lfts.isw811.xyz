@@ -86,7 +86,7 @@ En este indice podremos ver los capitulos del proyecto: **Laravel 8 From Sractch
 - [64. Validate and Store Post Thumbnails](./admin_section/validate-and-store-post-thumbnails.md)
 - [65. Extract Form-Specific Blade Components](./admin_section/extract-form-specific-blade-components.md)
 - [66. Extend the Admin Layout](./admin_section/extend-the-admin-layout.md)
-- [68. Create a Form to Edit and Delete Posts](./admin_section/create-a-form-to-edit-and-delete-posts.md)
+- [67. Create a Form to Edit and Delete Posts](./admin_section/create-a-form-to-edit-and-delete-posts.md)
 - [68. Group and Store Validation Logic](./admin_section/group-and-store-validation-logic.md)
 - [69. All About Authorization](./admin_section/all-about-authorization.md)
 
