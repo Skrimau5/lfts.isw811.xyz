@@ -91,4 +91,4 @@ En este indice podremos ver los capitulos del proyecto: **Laravel 8 From Sractch
 - [69. All About Authorization](./admin_section/all-about-authorization.md)
 
 ## 13. Conclusion
-- [70. Conclusion](./conclusion/conclusion.md)
+- [70. Conclusion](./conclusion/goodbye-and-next-steps.md)
